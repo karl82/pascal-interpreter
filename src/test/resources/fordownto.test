@@ -1,0 +1,9 @@
+var a,b:integer;
+
+begin
+	a:= 0;
+	for a:= 20 +1-1 downto 0 do
+		begin
+			b:=b+1;
+		end;
+end.

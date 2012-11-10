@@ -1,0 +1,31 @@
+program pokus1;
+var a,b : integer;
+
+
+begin
+  a:=0;
+  b:=0;
+  a:=(a+b);
+  while a<>10 do
+  begin
+    if a<=5 then writeln(a)
+    else Writeln("Vice jak 5");
+	while b<5 do
+        begin
+        	write(b);
+	   		b:=b+1+b;
+		end;
+    a:=a+1;
+    b:=0;
+  end;
+  writeln();
+  writeln("Konec dvou cyklu");
+  begin
+    a:=0;
+    while a<15 do
+     begin
+        writeln(a);
+        a:=a+1;
+     end;
+  end;
+end.

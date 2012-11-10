@@ -1,0 +1,31 @@
+program pokus1;
+var a,b : integer;
+
+
+begin
+  for a:=0 to 500 do
+  	b:=b+1;
+  while a<>0 do
+  begin
+    if a>250 then
+    	writeln(a)
+    else
+    	Writeln("Vice jak 250");
+	while b<100 do
+        begin
+        	write("b=", b);
+	   		b:=b+1;
+		end;
+	writeln();
+    a:=a-1;
+    b:=0;
+  end;
+  writeln("Ahoj");
+  writeln("Konec dvou cyklu");
+  begin
+    for a:=150 downto -150 do
+     begin
+        writeln(a);
+     end;
+  end;
+end.
